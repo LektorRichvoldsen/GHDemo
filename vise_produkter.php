@@ -20,6 +20,8 @@
 		//Angi UTF-8 som tegnsett
 		$kobling->set_charset("utf8");
 		
+		echo 'Test';
+
 		$sql = "SELECT * FROM produkt";
 		$resultat = $kobling->query($sql);
         echo var_dump($resultat);
