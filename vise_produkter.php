@@ -7,7 +7,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>Ny overskrift</h1>
+	<h1>Lise vil ha denne oversriften</h1>
 <?php 	
 		//Opprette kobling
 		$kobling = new mysqli('localhost', 'root', 'root', 'vifte_db');
